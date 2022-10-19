@@ -1,0 +1,40 @@
+Difference between document and window object:
+
+       window object                       document object              
+ 
+1)The first thing loaded in the        It represents the web page that                                   
+  browser is the window object.        is loaded in the browser.                                
+  In which  the doucument              The document object is actually loaded                                         
+  object loaded inside in it.          inside the window object such as html,php,aspx 
+  It is the root level element in      and other documents loaded inside the browser.
+  any web page.
+
+2)It is the first object loaded        It is the object loaded inside the window object.                                               
+  in the browser.                                                                       
+
+3)We can access the window from a      We can access the document object from the                                                      
+  window using the window.window       window.document                                 
+
+
+4)syntax:                              syntax:
+
+      window.propertyname;                  document.propertyname;                         
+
+
+5)example:                                example:
+
+    window.innerHeight : will return         document.title :  will return the title of the document
+    the height of the content area of 
+    the browser.
+
+6)propeties of documents object can      Document object cannot be able access the window object 
+  also able to accessed by window        properties.It can only access document object.
+  object like this
+  window.document.body
+
+
+                                                                    
+  
+
+      
+
